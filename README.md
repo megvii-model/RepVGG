@@ -1,4 +1,4 @@
-# RepVGG: Making VGG-style ConvNets Great Again
+# RepVGG: Making VGG-style ConvNets Great Again (CVPR-2021)
 
 The PyTorch implementation and pretrained models are available at 
 https://github.com/DingXiaoH/RepVGG
