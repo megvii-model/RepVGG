@@ -1,11 +1,26 @@
 # RepVGG: Making VGG-style ConvNets Great Again (CVPR-2021)
 
-The PyTorch implementation and pretrained models are available at 
+The official PyTorch implementation, pretrained models and examples are available at 
 https://github.com/DingXiaoH/RepVGG
 
 The MegEngine version will be released in several days.
 
+TensorRT implemention with C++ API by @upczww https://github.com/upczww/TensorRT-RepVGG. Great work!
+
+Another nice PyTorch implementation by @zjykzj https://github.com/ZJCV/ZCls.
+
+Included in a famous model zoo (over 7k stars) https://github.com/rwightman/pytorch-image-models.
+
 This is a super simple ConvNet architecture that achieves over 80% top-1 accuracy on ImageNet with a stack of 3x3 conv and ReLU! This repo contains the pretrained models, code for building the model, training, and the conversion from training-time model to inference-time.
+
+Citation:
+
+    @article{ding2021repvgg,
+    title={RepVGG: Making VGG-style ConvNets Great Again},
+    author={Ding, Xiaohan and Zhang, Xiangyu and Ma, Ningning and Han, Jungong and Ding, Guiguang and Sun, Jian},
+    journal={arXiv preprint arXiv:2101.03697},
+    year={2021}
+    }
 
 # Abstract
 
