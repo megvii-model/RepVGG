@@ -1,9 +1,10 @@
 # RepVGG: Making VGG-style ConvNets Great Again (CVPR-2021)
 
-The official PyTorch implementation, pretrained models and examples are available at 
+The official **PyTorch** implementation, pretrained models and examples are available at 
+
 https://github.com/DingXiaoH/RepVGG
 
-Update (Apr 25, 2021): a deeper RepVGG model achieves 83.55% top-1 accuracy on ImageNet with SE blocks and an input resolution of 320x320. Note that it is trained with 224x224 but tested with 320x320, so that it is still trainable with a global batch size of 256 on a single machine with 8 1080Ti GPUs. If you test it with 224x224, the top-1 accuracy will be 81.82%. It has 1, 8, 14, 24, 1 layers in the 5 stages respectively. The width multipliers are a=2.5 and b=5 (the same as RepVGG-B2). The model name is "RepVGG-D2se". The PyTorch code for building the model  and testing with 320x320 has been updated and the weights have been released at Google Drive and Baidu Cloud. Please check the PyTorch repo.
+Update (Apr 25, 2021): a deeper RepVGG model achieves **83.55%** top-1 accuracy on ImageNet with SE blocks and an input resolution of 320x320. Note that it is trained with 224x224 but tested with 320x320, so that it is still trainable with a global batch size of 256 on a single machine with 8 1080Ti GPUs. If you test it with 224x224, the top-1 accuracy will be 81.82%. It has 1, 8, 14, 24, 1 layers in the 5 stages respectively. The width multipliers are a=2.5 and b=5 (the same as RepVGG-B2). The model name is "RepVGG-D2se". The PyTorch code for building the model  and testing with 320x320 has been updated and the weights have been released at Google Drive and Baidu Cloud. Please check the PyTorch repo.
 
 The MegEngine version will be released in several days.
 
